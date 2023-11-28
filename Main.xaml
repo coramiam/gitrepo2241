@@ -52,12 +52,13 @@
       <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="450,333.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="450,464.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="388,91.2" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="main branch" />
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="388,91.2" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="main branch" />
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="388,91.2" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="main branch" />
   </Sequence>
