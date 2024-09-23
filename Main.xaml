@@ -92,6 +92,6 @@
         <InArgument x:TypeArguments="x:String" />
       </uix:NApplicationCard.UserDataFolderPath>
     </uix:NApplicationCard>
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="539.6,91.2" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="altceva" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="539.6,91.2" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="altceva local" />
   </Sequence>
 </Activity>
