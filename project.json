@@ -1,27 +1,25 @@
 {
-  "name": "GitRepo2241",
-  "projectId": "1b4968eb-bd21-43b2-b892-014a9ca2ae3f",
+  "name": "221015_proj",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.12.3]",
-    "UiPath.Mail.Activities": "[1.15.1]",
-    "UiPath.System.Activities": "[22.4.1]",
-    "UiPath.UIAutomation.Activities": "[22.4.4]"
+    "UiPath.System.Activities": "[22.10.8]",
+    "UiPath.Testing.Activities": "[22.10.4]",
+    "UiPath.UIAutomation.Activities": "[22.10.8]",
+    "UiPath.WebAPI.Activities": "[1.13.3]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.4.1.0",
+  "studioVersion": "22.10.15.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
     "isPausable": true,
     "isAttended": false,
-    "requiresUserInteraction": true,
+    "requiresUserInteraction": false,
     "supportsPersistence": false,
-    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -43,14 +41,13 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true,
-    "saveToCloud": false
+    "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "6956025a-722c-44f9-b246-ecfada20b0d8",
+      "uniqueId": "1d3d35d5-49ef-4b3a-aaa5-498c407b91c4",
       "input": [],
       "output": []
     }
@@ -58,5 +55,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Windows"
+  "targetFramework": "Portable"
 }

@@ -12,8 +12,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.AddQueueItem": [
@@ -28,8 +27,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.AddTransactionItem": [
@@ -44,24 +42,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
-      }
-    ],
-    "UiPath.Core.Activities.BeginProcess": [
-      {
-        "Type": "process",
-        "Values": {
-          "name": {
-            "Value": "ProcessName",
-            "ValueSource": "Property"
-          },
-          "folderPath": {
-            "Value": "FolderPath",
-            "ValueSource": "Property"
-          }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.BulkAddQueueItems": [
@@ -76,8 +57,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.DeleteQueueItems": [
@@ -88,8 +68,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.GetJobs": [
@@ -100,8 +79,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.GetQueueItem": [
@@ -116,8 +94,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.GetQueueItems": [
@@ -132,8 +109,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.GetRobotAsset": [
@@ -148,8 +124,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.GetRobotCredential": [
@@ -164,24 +139,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
-      }
-    ],
-    "UiPath.Core.Activities.GetTransactionItem": [
-      {
-        "Type": "queue",
-        "Values": {
-          "name": {
-            "Value": "QueueType",
-            "ValueSource": "Property"
-          },
-          "folderPath": {
-            "Value": "FolderPath",
-            "ValueSource": "Property"
-          }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.InvokeProcess": [
@@ -196,8 +154,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.PostponeTransactionItem": [
@@ -208,8 +165,40 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.QueueTrigger": [
+      {
+        "Type": "QueueTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
         },
-        "DefaultValueSource": "Default"
+        "Values": {
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          },
+          "name": {
+            "Value": "QueueName",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "MaxJobsForActivation": {
+            "Value": "MaxJobsForActivation",
+            "ValueSource": "Property"
+          },
+          "ItemsActivationThreshold": {
+            "Value": "ItemsActivationThreshold",
+            "ValueSource": "Property"
+          },
+          "ItemsPerJobActivationTarget": {
+            "Value": "ItemsPerJobActivationTarget",
+            "ValueSource": "Property"
+          }
+        }
       }
     ],
     "UiPath.Core.Activities.SetAsset": [
@@ -224,8 +213,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.SetCredential": [
@@ -240,8 +228,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.SetTransactionProgress": [
@@ -252,8 +239,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.SetTransactionStatus": [
@@ -264,8 +250,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.StartJob": [
@@ -280,8 +265,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.StopJob": [
@@ -292,8 +276,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.Storage.DeleteStorageFile": [
@@ -308,8 +291,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.Storage.DownloadStorageFile": [
@@ -324,8 +306,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.Storage.ListStorageFiles": [
@@ -340,8 +321,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.Storage.ReadStorageText": [
@@ -356,8 +336,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.Storage.UploadStorageFile": [
@@ -372,8 +351,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ],
     "UiPath.Core.Activities.Storage.WriteStorageText": [
@@ -388,8 +366,22 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
+        }
+      }
+    ],
+    "UiPath.Core.Activities.TimeTrigger": [
+      {
+        "Type": "TimeTrigger",
+        "Arguments": {
+          "TimeZone": {
+            "Value": "TimeZone",
+            "ValueSource": "Property"
+          },
+          "CronExpression": {
+            "Value": "CronExpression",
+            "ValueSource": "Property"
+          }
+        }
       }
     ],
     "UiPath.Core.Activities.WaitQueueItem": [
@@ -404,120 +396,7 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        },
-        "DefaultValueSource": "Default"
-      }
-    ],
-    "UiPath.Mail.Activities.Business.ExchangeApplicationCard": [
-      {
-        "Type": "Connection",
-        "Key": {
-          "Value": "BindingsKey",
-          "ValueSource": "Property"
-        },
-        "Values": {
-          "ConnectionId": {
-            "Value": "ConnectionId",
-            "ValueSource": "Property"
-          }
-        },
-        "Arguments": {
-          "UseConnectionService": {
-            "Value": "UseConnectionService",
-            "ValueSource": "Property"
-          },
-          "Connector": {
-            "Value": "Connector",
-            "ValueSource": "Property"
-          }
-        },
-        "DefaultValueSource": "Default"
-      }
-    ],
-    "UiPath.Mail.Activities.Business.GmailApplicationCard": [
-      {
-        "Type": "Connection",
-        "Key": {
-          "Value": "BindingsKey",
-          "ValueSource": "Property"
-        },
-        "Values": {
-          "ConnectionId": {
-            "Value": "ConnectionId",
-            "ValueSource": "Property"
-          }
-        },
-        "Arguments": {
-          "UseConnectionService": {
-            "Value": "UseConnectionService",
-            "ValueSource": "Property"
-          },
-          "Connector": {
-            "Value": "Connector",
-            "ValueSource": "Property"
-          }
-        },
-        "DefaultValueSource": "Default"
-      }
-    ],
-    "UiPath.Mail.Activities.Business.NewGmailTrigger": [
-      {
-        "Type": "EventTrigger",
-        "Key": {
-          "Value": "BindingsKey",
-          "ValueSource": "Property"
-        },
-        "Values": {
-          "ConnectionId": {
-            "Value": "ConnectionId",
-            "ValueSource": "Property"
-          }
-        },
-        "Arguments": {
-          "Connector": {
-            "Value": "Connector",
-            "ValueSource": "Property"
-          },
-          "Operation": {
-            "Value": "Operation",
-            "ValueSource": "Property"
-          },
-          "ObjectName": {
-            "Value": "ObjectName",
-            "ValueSource": "Property"
-          }
-        },
-        "DefaultValueSource": "Default"
-      }
-    ],
-    "UiPath.Mail.Activities.Business.NewO365EmailTrigger": [
-      {
-        "Type": "EventTrigger",
-        "Key": {
-          "Value": "BindingsKey",
-          "ValueSource": "Property"
-        },
-        "Values": {
-          "ConnectionId": {
-            "Value": "ConnectionId",
-            "ValueSource": "Property"
-          }
-        },
-        "Arguments": {
-          "Connector": {
-            "Value": "Connector",
-            "ValueSource": "Property"
-          },
-          "Operation": {
-            "Value": "Operation",
-            "ValueSource": "Property"
-          },
-          "ObjectName": {
-            "Value": "ObjectName",
-            "ValueSource": "Property"
-          }
-        },
-        "DefaultValueSource": "Default"
+        }
       }
     ]
   }
